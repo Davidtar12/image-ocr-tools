@@ -38,4 +38,4 @@ def adaptive_compress_image(file_path, save_path=None, max_size=3.9, max_resolut
 
 
 # Example usage
-adaptive_compress_image(r"H:\My Drive\Ecuador\tortugasgalapagos2024\wetransfer_broll_repatriacion_tortugas-mp4_2024-02-12_1805\Repatriación Tortugas\305A0518.JPG", r"C:\Users\david\Downloads\WhatsApp Image 2024-03-13 at 23.40.42_ab6537e7loco.jpg")
+adaptive_compress_image(r"H:\My Drive\Ecuador\tortugasgalapagos2024\wetransfer_broll_repatriacion_tortugas-mp4_2024-02-12_1805\Repatriación Tortugas\305A0518.JPG", r"C:\Users\USERNAME\Downloads\WhatsApp Image 2024-03-13 at 23.40.42_ab6537e7loco.jpg")

@@ -9,7 +9,7 @@ def convert_raw_image(input_path, output_path, brightening_factor=0.15):
         rgb = raw.postprocess(use_camera_wb=True, no_auto_bright=False, output_bps=8, auto_bright_thr=brightening_factor)
         imageio.imsave(output_path, rgb)
 
-input_path = r"C:\Users\david\Downloads\FOTOS\_DSF5021.RAF"
-output_path = r"C:\Users\david\Downloads\FOTOS\Converted\File.jpg"
+input_path = r"C:\Users\USERNAME\Downloads\FOTOS\_DSF5021.RAF"
+output_path = r"C:\Users\USERNAME\Downloads\FOTOS\Converted\File.jpg"
 
 convert_raw_image(input_path, output_path)

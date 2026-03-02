@@ -31,4 +31,4 @@ def remove_background(input_path, output_path):
 
 
 # Example usage
-remove_background(r"C:\Users\david\Downloads\Productos\Imagen de WhatsApp 2023-12-07 a las 15.37.42_6c9afd40_enhanced.jpg", r"C:\Users\david\Downloads\Productos\whitecharger.png")
+remove_background(r"C:\Users\USERNAME\Downloads\Productos\Imagen de WhatsApp 2023-12-07 a las 15.37.42_6c9afd40_enhanced.jpg", r"C:\Users\USERNAME\Downloads\Productos\whitecharger.png")

@@ -26,6 +26,6 @@ def make_signature_transparent_advanced(input_path, output_path, threshold=127):
     print(f"Image saved as {output_path}")
 
 if __name__ == "__main__":
-    make_signature_transparent_advanced(r"G:\My Drive\Personal\Firma\7M59Ex60ZqRr6y1eA4LgWX.png", r"C:\Users\david\Downloads\Productos\output_imagefirma.png")
+    make_signature_transparent_advanced(r"G:\My Drive\Personal\Firma\7M59Ex60ZqRr6y1eA4LgWX.png", r"C:\Users\USERNAME\Downloads\Productos\output_imagefirma.png")
 
 

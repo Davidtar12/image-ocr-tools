@@ -54,7 +54,7 @@ def create_collage(folder_path, output_path, collage_width=1080, collage_height=
     return collage
 
 # Example usage
-folder_path = r'C:\Users\david\Downloads\fotoscolpin'
+folder_path = r'C:\Users\USERNAME\Downloads\fotoscolpin'
 output_path = "collage.png"  # Path to save the collage image
 collage_width = 1080
 collage_height = 1080

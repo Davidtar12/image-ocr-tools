@@ -33,6 +33,6 @@ def enhance_image(image_path):
     return enhanced_image_path
 
 # Use this function before the background removal process
-enhanced_image_path = enhance_image(r"C:\Users\david\Downloads\Productos\Imagen de WhatsApp 2023-12-07 a las 15.37.42_6c9afd40.jpg")
+enhanced_image_path = enhance_image(r"C:\Users\USERNAME\Downloads\Productos\Imagen de WhatsApp 2023-12-07 a las 15.37.42_6c9afd40.jpg")
 
 # Then you can use the enhanced image for background removal

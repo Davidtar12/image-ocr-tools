@@ -16,7 +16,7 @@ def print_ocr_text(input_image_path):
     print(text)
 
 # Replace with the path to your image
-input_image_path = r"C:\Users\david\Downloads\Inicio-Asana.png"
+input_image_path = r"C:\Users\USERNAME\Downloads\Inicio-Asana.png"
 
 # Perform OCR and print results
 print_ocr_text(input_image_path)

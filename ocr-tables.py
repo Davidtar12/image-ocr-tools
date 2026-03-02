@@ -45,7 +45,7 @@ def ocr_pdf_to_csv(input_pdf_path, output_csv_path):
     print(f"OCR results for {input_pdf_path} saved to {output_csv_path}")
 
 # Example usage for images
-ocr_image_to_csv(r"C:\Users\david\Downloads\Imagen de WhatsApp 2024-05-15 a las 10.38.19_3ec88003.jpg", r"C:\Users\david\Downloads\output.csv")
+ocr_image_to_csv(r"C:\Users\USERNAME\Downloads\Imagen de WhatsApp 2024-05-15 a las 10.38.19_3ec88003.jpg", r"C:\Users\USERNAME\Downloads\output.csv")
 
 # Example usage for PDFs
 #ocr_pdf_to_csv(r"path/to/pdf.pdf", r"path/to/output.csv")

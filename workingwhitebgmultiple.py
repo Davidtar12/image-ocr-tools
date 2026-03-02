@@ -37,7 +37,7 @@ def process_multiple_images(image_paths, output_folder):
 
 
 # Example usage - list of image paths and the output directory
-image_paths = [r"C:\Users\david\Downloads\Productos\WhatsApp Image 2024-01-07 at 9.12.44 PM (1).jpeg"]
-output_folder = r"C:\Users\david\Downloads\Productos"
+image_paths = [r"C:\Users\USERNAME\Downloads\Productos\WhatsApp Image 2024-01-07 at 9.12.44 PM (1).jpeg"]
+output_folder = r"C:\Users\USERNAME\Downloads\Productos"
 
 process_multiple_images(image_paths, output_folder)

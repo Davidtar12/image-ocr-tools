@@ -16,8 +16,8 @@ def print_ocr_text(input_pdf_path):
         print(f"Page {i + 1} Text:\n{text}\n")
 
 # Replace with the path to your PDF
-input_pdf_path = r"C:\Users\david\OneDrive\Audiobooks\Epubs or txt files\PDF\iMAGE\Art of the Andes _ from Chavín to Inca -- Rebecca R_ Stone -- World of Art, 3, 2012 -- Thames and Hudson -- 9780500203637 -- 2ef2415abbb33a5f4f681d3ecd008ece -- Anna’s Archive.pdf"
-output_pdf_path = r'C:\Users\david\Downloads\artandes.pdf'
+input_pdf_path = r"C:\Users\USERNAME\OneDrive\Audiobooks\Epubs or txt files\PDF\iMAGE\Art of the Andes _ from Chavín to Inca -- Rebecca R_ Stone -- World of Art, 3, 2012 -- Thames and Hudson -- 9780500203637 -- 2ef2415abbb33a5f4f681d3ecd008ece -- Anna’s Archive.pdf"
+output_pdf_path = r'C:\Users\USERNAME\Downloads\artandes.pdf'
 
 # Create a searchable PDF
 create_searchable_pdf(input_pdf_path, output_pdf_path)

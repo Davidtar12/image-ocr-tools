@@ -6,7 +6,7 @@ import imageio
 
 def preserve_metadata(source_path, target_path):
     # Use exiftool to transfer metadata from source to target
-    exiftool_path = r"C:\Users\david\Downloads\exiftool-12.84\exiftool.exe"
+    exiftool_path = r"C:\Users\USERNAME\Downloads\exiftool-12.84\exiftool.exe"
     command = f'"{exiftool_path}" -overwrite_original -TagsFromFile "{source_path}" "{target_path}"'
     subprocess.run(command, shell=True)
 
@@ -25,8 +25,8 @@ def convert_image(input_path, output_path, extension):
             preserve_metadata(input_path, output_path)
 
 # Directory settings
-input_dir = r"C:\Users\david\Downloads\FOTOS"
-output_dir = r"C:\Users\david\Downloads\FOTOS\Converted"
+input_dir = r"C:\Users\USERNAME\Downloads\FOTOS"
+output_dir = r"C:\Users\USERNAME\Downloads\FOTOS\Converted"
 
 # Check and create output directory
 if not os.path.exists(output_dir):
