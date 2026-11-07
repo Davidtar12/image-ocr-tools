@@ -59,6 +59,6 @@ def adaptive_compress_images(source_folder, output_folder, max_size=3.99, max_re
 
 
 # Example usage
-source_folder = r"H:\My Drive\Perú\Aves mercurio Perú\Fotos Mongabay 2024-20240314T222151Z-001\Fotos Mongabay 2024\Historia"
-output_folder = r"H:\My Drive\Perú\Aves mercurio Perú\Fotos Mongabay 2024-20240314T222151Z-001\Fotos Mongabay 2024\Historia\finalesred"
+source_folder = r"C:\path\to\your_photos"
+output_folder = r"C:\path\to\your_photos"
 adaptive_compress_images(source_folder, output_folder)
